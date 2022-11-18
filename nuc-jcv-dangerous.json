@@ -1,0 +1,37 @@
+{
+    "type": "model",
+    "series": "16",
+    "model": "nuc-ces-jcv-1",
+    "architecture": "amd64",
+    "authority-id": "SgO2EXiK2bwgtciB1mNjMYM6zcljwXZt",
+    "brand-id": "SgO2EXiK2bwgtciB1mNjMYM6zcljwXZt",
+    "timestamp": "2022-11-18T15:10:20+00:00",
+    "base": "core22",
+    "grade": "dangerous",
+    "store": "IoTh4moam7vahMab9coo",
+    "snaps": [
+        {
+            "name": "iotdevice-nuc-ces-jcv",
+            "type": "gadget",
+	    "default-channel": "latest/edge"
+        },
+        {
+            "name": "pc-kernel",
+            "type": "kernel",
+            "default-channel": "22/stable",
+            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+        },
+        {
+            "name": "core22",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/stable",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        }
+    ]
+}
