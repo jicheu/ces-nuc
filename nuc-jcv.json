@@ -10,10 +10,11 @@
     "grade": "signed",
     "snaps": [
         {
-            "name": "pc",
+            "name": "iotdevice-nuc-ces-jcv",
             "type": "gadget",
-            "default-channel": "22/stable",
-            "id": "UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH"
+	    "default-channel": "latest/edge",
+	    "id": "OMF9RbMZQtBfxCDcCXZ3uNktcWhcl4ol"
+
         },
         {
             "name": "pc-kernel",
@@ -32,6 +33,63 @@
             "type": "snapd",
             "default-channel": "latest/stable",
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+	{
+            "name": "iotdevice-device-controller",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "CzdFgs2UnpmGq9tBVYk9yWhdN92cPRQE"
+        },
+        {
+            "name": "iotdevice-device-ui",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "dVCj8r7mKyWCXdniId2XgyVokZRnO3FX"
+        },
+        {
+            "name": "core18",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6"
+        },
+        {
+            "name": "bluez",
+            "type": "app",
+            "default-channel": "20/stable",
+            "id": "JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS"
+        },
+        {
+            "name": "mesa-core20",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "pDDsAW9ifzZnogboHJu3udsA6LsbGeGP"
+        },
+        {
+            "name": "ubuntu-frame",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "BPZbvWzvoMTrpec4goCXlckLe2IhfthK"
+        },
+	{
+            "name": "opencv-html-demo",
+            "type": "app",
+            "default-channel":"latest/edge",
+            "id":"Wp6KeSJrw6fcYhuQ5zVfhYHVKBSI2cfB"
+        },
+        {
+            "name": "iotdevice-jcv-kiosk",
+            "type": "app",
+            "default-channel":"latest/edge",
+            "id":"mANsujWjTSaWY8nUpPnymK1QzUpL8bLO"
+        },
+        {
+            "name": "iotdevice-lighttpd",
+            "type": "app",
+            "default-channel":"latest/edge",
+            "id":"Nm1py9tzRRhEEqu5d69viVSGkY6I22nG"
         }
+
+
+
     ]
 }
