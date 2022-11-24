@@ -29,6 +29,12 @@
             "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
         },
         {
+            "name": "core20",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
+        },
+        {
             "name": "snapd",
             "type": "snapd",
             "default-channel": "latest/stable",
