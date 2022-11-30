@@ -92,8 +92,8 @@
             "type": "app",
             "default-channel":"latest/edge",
             "id":"Nm1py9tzRRhEEqu5d69viVSGkY6I22nG"
-	},
-        {
+        },
+	{
             "name": "iotdevice-node-red-demo",
             "type": "app",
             "default-channel":"latest/stable",
@@ -104,9 +104,12 @@
             "type": "app",
             "default-channel":"latest/stable",
             "id":"9IuGPw5BnC6jAgdi9O95WluQZqFEAi27"
-
-        }
-
-
+        },
+	{
+	    "name": "edgexfoundry",
+	    "type": "app",
+	    "default-channel":"latest/stable",
+	    "id":"AZGf0KNnh8aqdkbGATNuRuxnt1GNRKkV"
+	}
     ]
 }
