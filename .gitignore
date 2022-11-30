@@ -2,3 +2,5 @@ nuc-jcv-dangerous.assert
 seed.manifest
 store.auth
 pc-jc.img
+nuc-jcv-dangerous.model
+.DS_Store
