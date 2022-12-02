@@ -85,7 +85,7 @@
         {
             "name": "iotdevice-jcv-kiosk",
             "type": "app",
-            "default-channel":"latest/edge",
+            "default-channel":"latest/beta",
             "id":"mANsujWjTSaWY8nUpPnymK1QzUpL8bLO"
         },
         {
