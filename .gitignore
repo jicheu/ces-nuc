@@ -5,3 +5,6 @@ pc-jc.img
 pc.img
 nuc-jcv-dangerous.model
 .DS_Store
+*.model
+*.img
+*.img.xz
